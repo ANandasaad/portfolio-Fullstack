@@ -1,10 +1,9 @@
+import coCreation from "@/public/coCreation.png";
+import rmtdevImg from "@/public/rmtdev.png";
+import winWadi from "@/public/winWadi.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+
 
 export const links = [
   {
@@ -35,71 +34,83 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Mern Stack Developer",
-    location: "SearchingYard",
+    title: "Associate Software Developer",
+    location: "Clixlogix Pvt Ltd, Noida",
     description:
-      "Experienced Full Stack Developer with 1+ years of hands-on experience. Proficient in MongoDB, Express.js, REST, and Node.js. Skilled in developing robust web applications and adept at creating efficient backend solutions. Possesses strong problem-solving abilities and a knack for implementing effective database structures. Collaborates effectively within development teams to deliver high-quality applications.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023 - 2024",
+      "Spearheaded the development of high-performance backend APIs for collaborative and e-commerce platforms. 🚀 Boosted response times by 30% and increased app adoption to 50K+ users through real-time communication and robust data handling. Implemented secure authentication (JWT, OAuth2, RBAC) and optimized performance using MongoDB, Redis, and RabbitMQ. Collaborated cross-functionally in an Agile team to deliver scalable, production-ready systems.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 – Present",
   },
   {
-    title: "Junior Software developer trainee",
-    location: "10x Academy ",
+    title: "Software Developer",
+    location: "SearchingYard Group, Bhubaneswar",
     description:
-      "I worked as a front-end developer.Proficient in developing frontend applications using React, Redux, Next.js, and TypeScript, while leveraging Tailwind CSS for efficient and responsive UI development. Ensures high performance, scalability, and reliability in frontend systems",
+      "Led backend development for a high-traffic e-commerce platform using Node.js and GraphQL. ⚙️ Reduced MongoDB query time by 40% with advanced indexing and schema optimization. Enhanced API speed with Redis caching and minimized latency through smart database strategies. Delivered scalable and resilient services while maintaining seamless frontend integrations.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2023+",
+    date: "Apr 2022 – Jan 2024",
   },
+ 
 ] as const;
+
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Co-Creation App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Built a real-time, role-based collaboration platform with task management and AI-assisted workflows. Engineered using PostgreSQL, Prisma, and Redis Pub/Sub for scalable, instant updates across teams.",
+    tags: ["JavaScript", "PostgreSQL", "RabbitMQ", "Redis", "Socket.io", "Node.js", "Express", "AWS",'Prisma'],
+    imageUrl: coCreation,
+    url: "",
   },
   {
-    title: "rmtDev",
+    title: "WinWadi",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+      "WinWadi is your all-in-one platform for affiliate marketing, influencer collaborations, and advertiser programs. Discover performance-driven campaigns, boost your brand visibility, and connect with top creators to maximize ROI.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux", "Node.js", "Express", "MongoDB", "PostgreSQL", "AWS",'Prisma'],
+    imageUrl: winWadi,
+    url: "https://winwadi.vercel.app"
+  }
+  
+  
+  ,
+
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
+  "Python",
+  "Golang",
+  "Node.js",
+  "Express",
+  "FastAPI",
+  "Next.js",
   "React",
   "React Query",
   "Redux",
-  "Next.js",
-  "Node.js",
-  "Git",
   "Tailwind",
   "Prisma",
-  "MongoDB",
+  "Mongoose",
   "Sequelize",
   "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Prisma",
-  "Golang",
-  "AWS",
+  "Git",
   "Docker",
+  "Kubernetes",
   "Microservices",
   "RabbitMQ",
-  "Framer Motion",
+  "AWS",
+  "PostgreSQL",
+  "MongoDB",
+  "Firebase",
+  "AWS",
+  "Docker",
+  "Kubernetes",
+  "Microservices",
+  "RabbitMQ",
+  "NATS",
+  "Kafka",
+  "Redis",
+  "Nginx",
+
+
 ] as const;

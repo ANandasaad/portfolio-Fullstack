@@ -19,29 +19,26 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">B.Tech</span>, I transitioned into the
-        world of software development, following my passion for programming. I
-        gained hands-on experience and became proficient in{" "}
-        <span className="font-medium">MongoDB</span>,{" "}
-        <span className="font-medium">Express.js</span>,{" "}
-        <span className="font-medium">REST</span>, and{" "}
-        <span className="font-medium">Node.js</span>. Skilled in developing
-        robust web applications, I excel at creating efficient backend solutions
-        and implementing effective database structures. My favorite part of
-        programming is the problem-solving aspect, and I thoroughly enjoy the
-        feeling of finally figuring out a solution to a problem. I collaborate
-        effectively within development teams to deliver high-quality
-        applications. Currently, I am upscaling my skills in DevOps, including
-        AWS, Docker, and more, as I am always eager to learn new technologies
-        and enhance my expertise. I am currently seeking a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Backend developer with 3 years of experience specializing in scalable and efficient system design. Proficient in{" "}
+        <span className="font-medium">JavaScript</span>,{" "}
+        <span className="font-medium">PostgreSQL</span>,{" "}
+        <span className="font-medium">Prisma</span>,{" "}
+        <span className="font-medium">RabbitMQ</span>,{" "}
+        <span className="font-medium">Redis</span>, and{" "}
+        <span className="font-medium">Socket.io</span>.
+
+        Currently working as an{" "}
+        <span className="font-medium">Associate Software Developer</span> at Clixlogix, where I've developed scalable collaborative applications with real-time features using Socket.io and Redis Pub/Sub. I've optimized database performance using PostgreSQL with Prisma ORM and implemented advanced RBAC systems for secure team collaboration.
+
+        Previously at SearchingYard Group, I led backend development for high-traffic e-commerce platforms, focusing on performance optimization and caching strategies.
+
+        I hold a{" "}
+        <span className="font-medium">Bachelor's degree in Computer Science</span> from Chandigarh University. I am passionate about building robust, maintainable, and scalable solutions while continuously adapting to emerging technologies.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies,{" "}
+        video games, watching movies, and exploring new technologies.
       </p>
     </motion.section>
   );
