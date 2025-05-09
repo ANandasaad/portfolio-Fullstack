@@ -66,7 +66,7 @@ export const projectsData = [
     title: "WinWadi",
     description:
       "WinWadi is your all-in-one platform for affiliate marketing, influencer collaborations, and advertiser programs. Discover performance-driven campaigns, boost your brand visibility, and connect with top creators to maximize ROI.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux", "Node.js", "Express", "MongoDB", "PostgreSQL", "AWS",'Prisma'],
+    tags: ["TypeScript", "Next.js", "Tailwind", "Redux", "Node.js", "Express", "PostgreSQL", "AWS",'Prisma'],
     imageUrl: winWadi,
     url: "https://winwadi.vercel.app"
   }
